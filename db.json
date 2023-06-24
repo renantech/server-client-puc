@@ -1,0 +1,66 @@
+{
+    "areas": [
+        {
+            "id": 1,
+            "nome": "Ciência da Computação",
+            "curso": "Bacharel",
+            "duracao_anos": 4,
+            "prerequisito": true
+        },
+        {
+            "id": 2,
+            "nome": "Engenharia de Software",
+            "curso": "Bacharel",
+            "duracao_anos": 4,
+            "prerequisito": true
+        },
+        {
+            "id": 3,
+            "nome": "Análise e Desenvolvimento de Sistemas",
+            "curso": "Tecnólogo",
+            "duracao_anos": 2,
+            "prerequisito": true
+        },
+        {
+            "id": 4,
+            "nome": "Engenharia da Computação",
+            "curso": "Bacharel",
+            "duracao_anos": 5,
+            "prerequisito": true
+        },
+        {
+            "id": 5,
+            "nome": "Sistemas de Informação",
+            "curso": "Bacharel",
+            "duracao_anos": 4,
+            "prerequisito": true
+        },
+        {
+            "id": 6,
+            "nome": "Engenharia de Controle e Automação",
+            "curso": "Bacharel",
+            "duracao_anos": 5,
+            "prerequisito": true
+        },
+        {
+            "id": 7,
+            "nome": "Jogos Digitais",
+            "curso": "Tecnólogo",
+            "duracao_anos": 2
+        },
+        {
+            "id": 8,
+            "nome": "Ciência de Dados",
+            "curso": "Bacharel",
+            "duracao_anos": 4,
+            "prerequisito": true
+        },
+        {
+            "id": 9,
+            "nome": "Banco de Dados",
+            "curso": "Tecnólogo",
+            "duracao_anos": 2,
+            "prerequisito": true
+        }
+    ]
+}

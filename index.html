@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Pesquisa e Filtragem</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <style>
+        .result {
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Pesquisa e Filtragem</h1>
+        <p>Renan Mendes Vieira de Carvalho - 804508</p>
+        <div class="d-flex">
+            <div class="form-group">
+                <label for="nameFilter">Filtrar por Nome:</label>
+                <input type="text" id="nameFilter" class="form-control" placeholder="Digite um nome">
+            </div>
+            <div class="form-group ml-3">
+                <label for="durationFilter">Filtrar por Duração:</label>
+                <select id="durationFilter" class="form-control">
+                    <option value="">Todos</option>
+                    <option value="2">2 anos</option>
+                    <option value="4">4 anos</option>
+                    <option value="5">5 anos</option>
+                </select>
+            </div>
+            <div class="form-group ml-3">
+                <label for="courseFilter">Filtrar por Curso:</label>
+                <select id="courseFilter" class="form-control">
+                    <option value="">Todos</option>
+                    <option value="Bacharel">Bacharel</option>
+                    <option value="Tecnólogo">Tecnólogo</option>
+                </select>
+            </div>
+            <button id="filterButton" class="btn ml-3 btn-primary">Filtrar</button>
+        </div>
+        <div id="results" class="row mt-3"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
